@@ -8,7 +8,7 @@ The end result should look like the below image, with all the variants in the fi
 
 ## Problem -
 The R script works, however, I am not the most proficient in R and the script uses a very brute force approach. The main issue I am having is the amount of RAM required for this script to actually run. I have to requect around 150GB-200GB of RAM with 3 nodes for the script to even run, which usually means its queued in apocrita job submission for days. 
-I would like any feedback or sujestions on how to make it run faster with less RAM usuage. I have provided the R script and some example Exomiser output files. 
+I would like any feedback or sujestions on how to make it run faster with less RAM usuage. I have provided the R script and some example Exomiser output files (these were origionally in the /data/home/hhz060/Exomiser_variants/ location in the script). 
 
 Many Thanks :)
 

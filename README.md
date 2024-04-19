@@ -2,7 +2,8 @@
 
 ## Background -
 I am using the variant prioritisation software Exomiser to analyse VCF files from patients with pitutiary adenomas. This software creates a ranked list of variants for each sample with the variant most likely to be pathogenic at the top. I have a total of 117 output files in total. I wanted to create a script which displays the information from all these files in one master file to make post analysis easier. 
-The end result should look like the below image, with all the variants in the first column, then some extra information regarding gene symbol, variant class etc, then a column for every sample with either NA where the variant is not present or 0/1 if the sample contains that variant.
+The end result should look like the below image, with all the variants in the first column, then some extra information regarding gene symbol, variant class etc, then a count of how many samples that variant appears in, then a column of every rank that variant has been given in a list per sample, then a column for every sample with either NA where the variant is not present or 0/1 if the sample contains that variant.
+
 ![image](https://github.com/evana010/CodeClinic/assets/61657803/0a325a70-ef16-4fb9-a1b5-6c260ccc7d66)
 
 ## Problem -
